@@ -8,9 +8,9 @@ import Light from "../../assets/shared/icon-light.svg"
 export default function CharacteristicsProduct() {
     return (
         <section className="
-            py-16 flex flex-col gap-8
+            my-16 flex flex-col gap-8
             md:grid md:grid-cols-2 md:p-6
-            lg:px-20 lg:grid-cols-4 lg:gap-1
+            lg:px-40 lg:grid-cols-4 lg:gap-2
             ">
             <Benefies
                 ImageBenefie={Computer} 

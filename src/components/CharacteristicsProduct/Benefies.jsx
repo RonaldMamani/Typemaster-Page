@@ -5,10 +5,9 @@ import TextBenefies from "./TextBenefies";
 export default function Benefies({ImageBenefie, TextPrincipal, Text, DescritionBenefie}) {
     return (
         <div className="
-            text-center p-4
+            text-center items-center p-4
             flex flex-col gap-5
-            md:text-start
-            lg:
+            md:text-start md:items-start
             ">
             <Image Img={ImageBenefie} Benefie={DescritionBenefie} />
             <PrincipalBenefies Principal={TextPrincipal} />

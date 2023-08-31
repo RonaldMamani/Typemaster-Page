@@ -6,7 +6,7 @@ export default function Header() {
         <header className="
             flex justify-between items-center py-4 px-4
             md:p-11
-            lg:px-28 lg:py-14
+            lg:px-40 lg:py-14
             ">
             <Logo />
             <ButtonNow textButton="Pre-Order Now" />

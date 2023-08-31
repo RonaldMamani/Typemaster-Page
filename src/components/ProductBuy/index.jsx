@@ -3,7 +3,7 @@ import NameProduct from "./NameProduct";
 import ProductImage from "./ProductImage";
 import DescriptionProduct from "./DescriptionProduct";
 
-import Product from "../../assets/mobile/image-keyboard.jpg"
+import Product from "../../assets/desktop/image-keyboard.jpg"
 import OfertTime from "./OfertTime";
 
 export default function ProductBuy() {
@@ -11,7 +11,7 @@ export default function ProductBuy() {
         <section className="
             px-5 my-10 flex flex-col
             md:p-11 md:flex-row
-            lg:px-28 lg:py-14 gap-5 lg:items-center
+            lg:px-40 lg:py-14 gap-10 lg:items-center
             ">
             <div className="flex flex-col gap-7">
                 <NameProduct name="Typemaster Keyboard" />
